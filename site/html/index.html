@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang = "ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="=width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Простейшая и крутейшая форма</title>
+		<link rel ="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Форма обратной связи с сервером</h1>
+			<form>
+				<p>Введите ваш Email
+				<input type="email" id="email" name="email" placeholder="Пример Email: GladValakas1488@gmail.com" class="form-control"><br>
+				<p>Введите ваш логин
+				<input type="login" id="login" name="login" placeholder="Пример Логина: Валера Пожилая Гадзила	" class="form-control"><br>
+				<p>Выберете дату вашего рождения:<input type="date" id="date" name="birthday"  class="form-control" max="2020-22-04" min="1920-22-04"><br>
+				<p>Введите ваш пароль
+		     	<input type="password" id="password" name="password" placeholder="Пароль" class="form-control" ><br>
+		     	<p>Подтвердите ваш пароль
+			   <input type="password" id="repassword" name="repassword" placeholder="Введите Пароль Еще раз" class="form-control" ><br>
+			   <button type="button" id="sendMail" class="btn btn-success">Отправить</button>
+			</form>
+			<br>
+			<div id="errorMess"  class="text-danger">
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="js/formMail.js"></script>
+	</body>
+</html>

@@ -1,0 +1,62 @@
+a {
+	color: green;
+	font-size: 16px;
+}
+
+a:hover{
+	background: #F7A0FF;
+}
+
+table{
+	border: 1px solid #666;
+}
+
+blockquote{
+	text-align: center;
+	border:1px solid #666;
+	padding: 2px;
+	background: #FF0F2F;
+	border-width: 20%;
+} 
+
+blockquote:hover{
+	background: #F7A0FF;
+}
+
+
+body {
+	background : url('катлет очка.jpg');
+	font-family: Courier New, Arial, Helvetica, sans-serif;
+	border-left: 1.5px solid navy;
+	margin-left: 20px;
+	padding-left: 15px;
+}
+
+h1{
+	color: red;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	border-bottom: 1px dashed red; 
+}
+
+h1:hover{
+	background: blue;
+}
+
+div{
+	color: #FF1A05;
+}
+
+#a12{
+	color: ##0048BA ;
+}
+
+.a13{
+	color: #FBFF00;
+	background: ##FF0F2F;
+	padding: 1px;
+
+}
+p{
+	padding-left: 300px;
+}
